@@ -1,7 +1,7 @@
 # Simple class for CSR matrix generating from text data 
 
 Useful python script for converting csv-log files to compressed sparse row.
-  - One-hot encoding matrice preparation
+  - Compressed sparse matrice preparation 
   - Sliding window reading capability
   - Numpy realization
 
