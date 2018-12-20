@@ -32,6 +32,7 @@ with the first complete description appearing in 1967.[2]
 # Snippet class example
 
 **Trivial task:**
+
 Read provided log files and prepare it for machine learning model that predicts user behaviour
 
 Dataset of web-browsed logs was used from the paper:
@@ -39,10 +40,12 @@ Dataset of web-browsed logs was used from the paper:
 
 
 **Solution:**
+
 Python script reads csv files using sliding window and creates dataframe.
 For learning efficiency and memory usage optimization script also converts data frame to compressed sparse matrice.
 
 **Using:**
+
 1. Read csv data to dataframe. By default session size is 10 sites. 
 Window is equal to session size (no sliding).
 ```python
